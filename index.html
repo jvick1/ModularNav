@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;IE=11;IE=10;IE=9"/>
+
+    <meta name="description" content="CSBS Data Analytics">
+    <meta name="author" content="CSBS Analytics and Research">
+
+    <!-- Essential CSS files -->
+    <link href="/css/metro-bootstrap.min.css" rel="stylesheet">
+    <link href="/css/metro-bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/css/iconFont.min.css" rel="stylesheet">
+    <link href="/css/customize.css" rel="stylesheet">
+    <link href="/css/table.css" rel="stylesheet">
+
+    <!-- Essential JavaScript Libraries -->
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/metro.min.js"></script>
+
+    <title>CSBS Analytics and Research : Data Gallery</title>
+</head>
+<body style="background-color: #efefef">
+
+<!-- header -->
+<div id="nav-placeholder">
+</div>
+
+<script>
+$(document).ready(function() {
+    $.get("Nav.html", function(data) {
+        $("#nav-placeholder").replaceWith(data);
+    });
+});
+</script>
+
+<!-- your code would go here -->
+
+  
+</body>
+</html>
