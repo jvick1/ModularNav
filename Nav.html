@@ -1,0 +1,60 @@
+<header class="bg-dark">
+  <div class="navigation-bar dark">
+    <div class="navigation-bar-content container">
+      <!-- Home link with logo -->
+      <a href="/" class="element">
+        <span class="icon-grid-view"></span> &nbsp; CSBS Analytics <sup>3.0</sup>
+      </a>
+      <span class="element-divider"></span>
+      
+      <!-- Placeholder for pull-menu (expandable menu in smaller devices?) -->
+      <a class="element1 pull-menu" href="#"></a>
+      
+      <!-- Main navigation menu -->
+      <ul class="element-menu">
+        <li>
+          <!-- Item 1 dropdown -->
+          <a href="#" class="dropdown-toggle">Item 1</a>
+          <ul class="dropdown-menu dark" data-role="dropdown">
+            <li><a href="">Sub Item 1</a></li>
+            <li><a href="">Sub Item 2</a></li>
+            <li><a href="">Sub Item 3</a></li>
+            <li><a href="">Sub Item 4</a></li>
+          </ul>
+        </li>
+        <li>
+          <!-- Item 2 link -->
+          <a href="">Item 2</a>
+        </li>
+        <li>
+          <!-- Item 3 dropdown -->
+          <a href="#" class="dropdown-toggle">External</a>
+          <ul class="dropdown-menu dark" data-role="dropdown">
+            <li><a href="">Sub Item 1</a></li>
+            <li><a href="">Sub Item 2</a></li>
+            <li><a href="">Sub Item 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <!-- Item 4 link -->
+          <a href="">Item 4</a>
+        </li>
+        
+        <li class="divider"></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Metro UI CSS library -->
+  <script src="/js/metro.min.js"></script>
+  <script>
+    // Initialize Metro UI CSS components
+    if (typeof Metro !== 'undefined') {
+      Metro.init();
+    } else {
+      console.error('Metro UI CSS library is not loaded.');
+    }
+  </script>
+  
+</header>
