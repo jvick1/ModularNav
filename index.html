@@ -35,8 +35,21 @@ $(document).ready(function() {
 });
 </script>
 
-<!-- your code would go here -->
+    
+<!-- your content code would go here -->
 
   
+<!-- Footer -->
+<div id="footer-placeholder">
+</div>
+
+<script>
+$(document).ready(function() {
+    $.get("/Footer.html", function(data) {
+        $("#footer-placeholder").replaceWith(data);
+    });
+});
+</script>
+    
 </body>
 </html>
